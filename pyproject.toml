@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "jawohl"
+version = "0.1.0"
+description = ""
+authors = ["Zack <zack@zacharymaril.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+textualize = "^0.1"
+sqlmodel = "^0.0.21"
+openai = "^1.40.6"
+rich = "^13.7.1"
+pydantic = "^2.8.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
